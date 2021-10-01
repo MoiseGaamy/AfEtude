@@ -1,0 +1,96 @@
+﻿1.0.0.26
+* Added support for a reply-to field for outgoing messages
+
+1.0.0.25
+* Fixed language loading problem
+
+1.0.0.24
+* Added support for remembering window size and location from previous run
+* Fixed bug with startup location and configuration file mismatches
+
+1.0.0.23
+* Fixed bug with cultures that use , instead of . for decimal delimiter
+
+1.0.0.22
+* Added support for multiple body parameters so you can inline multiple files
+* Fixed bug where filename of attachment is entire path with missing slashes
+
+1.0.0.21
+* Added command line argument for specifying which address book file to use
+* Fixed label in configuration to show TLS instead of SSL, since the mail
+  library only supports TLS connections, not true SSL connections
+
+1.0.0.20
+* Fixed bug when checking the "Keep open after sending" box and any subsequent
+  messages would not actually send
+
+1.0.0.19
+* Fixed bug when displaying the error message after specifying an invalid 
+  To/From address
+
+1.0.0.18
+* Added "Add Multiple Addresses" functionality
+* Minor configuration bug fixes
+
+1.0.0.17 - 
+* bug fixes
+
+1.0.0.16 -
+* Added ability to hide objects listed in hide.txt located within the start
+  up directory.
+
+1.0.0.15 -
+* Added support for handing mailto URIs. Just pass in -compose "%1" via the
+  registry. SMTPMailSender won't automatically register itself as a mail
+  client.
+
+1.0.0.14 -
+* Fixed problem where SMTP Mail Sender requested .NET 4, when it only needs 2.0
+
+1.0.0.13 -
+* Added SMTP timeout command line option for troubleshooting slow server/client
+  interactions
+
+1.0.0.12 -
+* Added ability to override log filename/location via the command line
+
+1.0.0.11 -
+* Added command line abilities for CC and BCC fields
+* Added configuration file options for CC and BCC fields, add cc=<address> or
+  bcc=<address> in the configuration file to always include by default
+
+1.0.0.10 -
+* Added CC and BCC fields
+
+1.0.0.9 -
+* Allow passing plain text credentials via the command line only
+
+1.0.0.8 -
+* Added logging feature
+
+1.0.0.7 -
+* Added French language file to release
+* Fixed encoding problem when loading language files
+
+1.0.0.6 -
+* Improved language support with options dialog
+
+1.0.0.5 -
+* Accept command line parameters
+* Added Spanish language file to release
+
+1.0.0.4 -
+* Auto complete address from address book in the To box
+* Optional feature to advertise HazteK Software in outgoing messages
+
+1.0.0.3 -
+* Display size of attachments before sending
+
+1.0.0.2 - 
+* Added translation support for users of other languages
+
+1.0.0.1 -
+* Added ability to open and insert text files into the body of the email
+
+1.0.0.0 -
+* Initial Release

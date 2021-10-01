@@ -1,0 +1,54 @@
+# If any of these controls are uncommented, they will be hidden in the main GUI
+# Be careful, you might make the program completely useless!
+
+# mail envelope icon in the top left corner
+#pictureBox1
+
+# "From" label and input box
+#lFrom
+#tFrom
+
+# "To" label and input box
+#lTo
+#tTo
+
+# "CC" label and input box
+#lCC
+#tCC
+
+# "BCC" label and input box
+#lBCC
+#tBCC
+
+# "Subject" label and input box
+#lSubject
+#tSubject
+
+# "Message Body" label, input box, open file, insert file buttons
+#lBody
+#tBody
+#bOpenFile
+#bInsert
+
+# container holding Open File and Insert File buttons
+#panFileLoadButtons
+
+# attachment label, list and button
+#lAttachments
+#lvAttachments
+#bAddAttachment
+
+# container holding Attachments label and Add button
+#panAttachments
+
+# Settings button
+#bServerSettings
+
+# "Keep open after sending" checkbox
+#chKeepOpen
+
+# Send button (not really a good idea to remove this one)
+#bSend
+
+# container holding Send button and "keep open" checkbox
+#panSend

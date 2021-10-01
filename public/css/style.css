@@ -1,0 +1,1062 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+.navbara{
+    background-color: #131313;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+}
+
+.navbar__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    width: 100%;
+    height: 80px;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo{
+    background-color: #ff1100;
+    background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(174, 177, 0));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar__item{
+    height: 80px;
+}
+
+.navbar__links{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 125px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.navbar__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: #fff;
+}
+
+.button:hover{
+    color: #ff0000;
+    border-bottom: 5px solid blue;
+}
+
+.navbar__links:hover{
+    color: rgb(255, 0, 0);
+    border-bottom: 5px solid blue;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 30px;
+    color: rgb(229, 255, 0);
+    background-image: linear-gradient(to right, rgb(255, 0, 170), rgb(0, 255, 242));
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    transition: all 0.5s ease;
+}
+.introduction{
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #131321;
+}
+.opportunity{
+    position: relative;
+    top: -20px;
+    display: flex;
+    justify-content: center;
+    background-color: #131321;
+    width: 100%;
+    height: 100vh;
+}
+.opportunity-image{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.head-opportunity{
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(2, 40, 124, 0.5);
+    position: absolute;
+    top: 0;
+    padding: 3%;
+}
+.head-opportunity h1{
+    font-size: 4vw;
+    color: #fff;
+    text-align: center;
+}
+
+.raw{
+    width: 100%;
+    position: absolute;
+    margin-top: 15%;
+}
+
+.card-body{
+    background-color: rgba(0,0,0,0.5) !important;
+}
+.input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+}
+    
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+}
+    
+.remember{
+    color: white;
+}
+    
+.remember input{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+::placeholder{
+    position: absolute;
+}
+    
+.login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+    
+.login_btn:hover{
+    color: black;
+    background-color: white;
+}
+    
+.links{
+    color: white;
+}
+    
+.links a{
+    margin-left: 4px;
+    }
+.right-body{
+    display: grid;
+    justify-content: center;
+}
+.written-opportunity{
+    color: rgb(76, 159, 253);
+    font-size: 2rem;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.list-opportunity{
+    font-size: 1.5rem;
+    list-style-type: "👩‍🎓";
+    display: grid;
+    margin: 5%;
+    padding: 2%;
+    justify-content: center;
+}
+.list-opportunity li{
+    border-radius: 10px;
+    background-color: rgba(2,4,8,0.3);
+    margin-top: 5%;
+    text-align: center;
+}
+.list-opportunity a{
+    color: #fff;
+}
+
+.Nos_services{
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 25px;
+    background-color: #131321;
+}
+.intro_ecris, .raison_le_Ghana, .avant_list,.list, .intro_institut, .features-univ{
+    padding: 2%;
+    font-size: 1.3rem;
+    color: white;
+    list-style-type:"👉";
+}
+
+.admission, .Visa, .logement{
+    margin: 2%;
+    padding: 2%;
+    font-size: 25px;
+    color: white;
+}
+.list{
+    margin-left: 5%;
+    line-height: 150%;
+    margin-bottom: -5px;
+}
+
+.Pourquoi_le_Ghana, .Pourquoi_Nous{
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 1.5rem;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ff1100;
+    background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(174, 177, 0));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.title_service, .title_visa, .title_logement, .title_university{
+    padding-left: 5%;
+    padding-right: 2%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ff1100;
+    background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(174, 177, 0));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.slogan, .Welcome{
+    margin: 0 auto;
+}
+.click{
+    width: 20px;
+}
+
+.background{
+    display:inline;
+    width: 100%;
+}
+.boite {
+    position: relative;
+    width:100%;
+}
+
+.legende {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 80%;
+    font-family: "Brush Script MT";
+    font-size: 8vw;
+    text-align: center;
+    color: rgb(229, 255, 0);
+    background-image: linear-gradient(to right, rgb(255, 0, 170), rgb(0, 255, 242));
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    transition: all 0.5s ease;
+}
+.legende_ {
+    position: absolute;
+    bottom: 50%;
+    text-align: center;
+    font-family: "Brush Script MT";
+    font-size: 5vw;
+    color: rgb(229, 255, 0);
+    background-image: linear-gradient(to right, rgb(255, 0, 170), rgb(0, 255, 242));
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    transition: all 0.5s ease;
+    width: 100%;
+}
+
+.new_compte{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.connecter{
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    font-weight: 400;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+}
+.button_connecter{
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover{
+    color: slateblue;
+}
+.new_compte,.connecter{
+    width: 20vw;
+    height: 4vw;
+    margin-bottom: 1vw;
+}
+
+.each_link{
+    color: white;
+}
+.services_all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ff1100;
+    background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(174, 177, 0));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.Hope_Life{
+    background-color: white;
+    border-radius: 20px;
+    background-image: url("../images/design/item_4.png");
+    background-repeat: no-repeat;
+    background-position-x: 200%;
+    background-position-y: 190px;
+    background-size: 70%;
+    box-shadow: 1px 1px 10px orange;
+    width: 50%;
+    /* height: 300px; */
+    margin: 80px auto;
+    padding: 1%;
+    transition: all 1s ease;
+}
+
+.Hope_Life_logo{
+    width: 15%;
+    border-radius: 50px;
+}
+.stars{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 0;
+    margin-top: -10px;
+}
+.Hope_head{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 30%;
+    background:url("../images/design/here.png");
+    background-repeat: no-repeat;
+    background-size: 18%;
+    background-position-x: 90%;
+    background-position-y: 100%;
+
+}
+
+.btn-info{
+    color: #fff;
+}
+
+.Hope_name{
+    font-weight: bolder;
+    font-size: 2rem;
+    background-image: linear-gradient(to top, rgb(0, 255, 42), rgb(174, 177, 0));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-decoration: underline;
+}
+br{
+    display: none;
+}
+
+
+.TAS_container, .CELPS_container, .ELA_container, .ELL_container, .Hope_container{
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#Hope_name{
+    text-decoration:lawngreen;
+}
+#ecole_line{
+    margin-bottom: 20px;
+}
+
+.select_In{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.select_Institute{
+    color: #fff;
+    /* background-image: linear-gradient(to right, orange,rgb(255, 81, 0)); */
+    border: none;
+    padding: 5px;
+    /* font-size: 20px; */
+    /* border-radius: 10px; */
+}
+#select_Institute{
+    color: #fff;
+}
+footer{
+    background-color: rgb(0, 4, 59);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.before{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    background-image:url("../images/blue_c.png");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.media{
+    display: grid;
+    grid-template-rows: 50%;
+}
+.reve{
+    padding: 3vw;
+    font-size: 100%;
+    margin-left: 10%;
+}
+.btnn{
+    margin-right: 10%;
+    animation-name: btn;
+    animation-duration: 1s;
+    transition: all 1s ease;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+@keyframes btn {
+    25% {background-image: linear-gradient(to left, green);}
+    to {background-image: linear-gradient(to left, rgb(0, 255, 0),yellow);}
+    
+}
+.fa {
+    color: black;
+    padding: 20px;
+    font-size: 50px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+.footer_head{
+    font-size: 3vw;
+    color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.footer_hea{
+    color: yellow;
+}
+
+/* .info_contact{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+} */
+.telephone{
+    font-size: 13px;
+    color: #fff;
+}
+.mailAfrique {
+    font-size: 13px;
+    color: white;
+}
+
+.stat{
+    color: #fff;
+    padding: 2%;
+    font-size: 16px;
+    border-bottom: 2px solid rgb(226, 226, 20);
+}
+.stat::placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map{
+    margin: 0 auto;
+}
+.line{
+    width: 100%;
+    color: yellow;
+    border-bottom: 2px solid yellow;
+    margin-top: 2%;
+}
+.country{
+    margin-top: 2%;
+}
+.all-pro{
+    display: grid;
+    justify-content: space-between;
+    margin: 1vw;
+    height: 1.5vw;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa {
+    padding: 0.5vw;
+    font-size: 0.5vw;
+    width: 2vw;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+} 
+
+.mailAfrique:hover {
+    color: rgb(0, 60, 255);
+}
+.fa-whatsapp  {
+    color:#fff;
+    background:
+     linear-gradient(#25d366,#25d366) 14% 84%/16% 16% no-repeat,
+     radial-gradient(#25d366 60%,transparent 0);
+}
+
+.telephone:hover{
+    color: rgb(0, 60, 255);
+}
+.fa-envelope{
+    color: #fff;
+}
+
+.copyright{
+    color: #fff;
+    font-size: 100%;
+    text-align: center;
+}
+.right-copy{
+    background-color: black;
+    font-size: 80%;
+}
+@media (width:1024px) {
+    .Welcome{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Brush Script MT";
+        font-size: 3rem;
+        position: relative;
+        bottom: 20vh;
+        color: rgb(229, 255, 0);
+        background-image: linear-gradient(to right, rgb(255, 0, 170), rgb(0, 255, 242));
+        -moz-background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color:transparent;
+        transition: all 0.5s ease;
+        width: 50%;
+    }
+    .boite{
+        height: 40vh;
+    }
+    .slogan{
+        display: flex;
+        justify-content: center;
+        height: fit-content;
+        align-items: center;
+        width: 100%;
+        font-size: 30px;
+        position: relative;
+        bottom: 40vh;
+        color: rgb(229, 255, 0);
+        background-image: linear-gradient(to right, rgb(255, 0, 170), rgb(0, 255, 242));
+        -moz-background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color:transparent;
+        transition: all 0.5s ease;
+    }
+}
+
+
+@media (max-width:960px){
+    .navbara{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .navbar__container{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50%;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0;
+    }
+    
+    .navbar__menu{
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: -1000px;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: -1;
+    }
+    .navbar__menu.active{  
+        top: 100%;
+        opacity: 1;
+        z-index: 99;
+        height: fit-content;
+        background-color: rgba(2,4,8,0.8);
+        box-shadow: 2px 2px 10px rgb(22, 21, 21);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        transition: all 0.5s ease;
+    }
+    #navbar__logo{
+        padding-left: 25px;
+        margin-top: -50%;
+        height: fit-content;
+        font-size: 2rem;
+    }
+    .navbar__toggle .bar{
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s ease;
+        background-color: #fff;
+    }
+
+    .navbar__items{
+        width: 100%;
+    }
+
+    .navbar__links{
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 2rem;
+        width: fit-content;
+        height: fit-content;
+        display: table;
+        margin: 0 auto;
+    }
+
+    .navbar__btn{
+        padding-bottom:  2rem;
+        position: relative;
+        bottom: 0;
+    }
+
+    .button{
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        height: 80px;
+        margin: 0;
+    }
+    
+    #mobile-menu{
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5% 20%);
+    }
+
+    .navbar__toggle .bar{
+        display: block;
+        cursor: pointer;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(2){
+        opacity: 0;
+    }
+    #mobile-menu.is-active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    #mobile-menu.is-active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .new_compte, .connecter{
+        font-size: 0.6rem;
+        padding: 0;
+    }
+
+    .Welcome{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        font-size: 1.3rem;
+        margin: 0 auto;
+        transition: all 0.5s ease;
+        position: relative;
+        top: -5vh;
+        
+    }
+
+    .slogan{
+        font-family: "Arial Black";
+        font-size: 10px;
+        margin: 0 auto;
+        width: 100%;
+        color: rgb(187, 207, 0);
+        background-image: linear-gradient(to right, rgb(255, 0, 170), rgb(0, 255, 242));
+        -moz-background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color:transparent;
+        transition: all 0.5s ease;
+        
+    }
+    .click{
+        width: 5px;
+    }
+    .introduction{
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #131321;
+    }
+    .Nos_services{
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 25px;
+        background-color: #131321;
+    }
+    .intro_ecris, .raison_le_Ghana, .avant_list,.list{
+        padding: 0 5%;
+        color: white;
+        list-style-type:"👉";
+    }
+    .list{
+        margin-left: 5%;
+        line-height: 150%;
+    }
+
+    .Pourquoi_le_Ghana, .Pourquoi_Nous, .ecole{
+        padding: 0 5%;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #ff1100;
+        background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(174, 177, 0));
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+    }
+
+
+    .each_link{
+        color: white;
+    }
+    .services_all{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #ff1100;
+        background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(174, 177, 0));
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+    }
+
+    .written-opportunity{
+        font-size: 5vw;
+    }
+    .head-opportunity{
+        position: relative;
+    }
+    .list-opportunity{
+        font-size: 0.8rem;
+        list-style-type: "👩‍🎓";
+        display: grid;
+        margin: 2%;
+        padding: 1%;
+        justify-content: center;
+    }
+    .list-opportunity li{
+        border-radius: 10px;
+        background-color: rgba(2,4,8,0.3);
+        margin-top: 2%;
+        text-align: center;
+    }
+    .list-opportunity a{
+        color: #fff;
+    }
+    .Hope_Life{
+        width: 90%;
+        margin: 0 auto;
+        background-color: #fff;
+        background-image: url("../images/design/item_1.png");
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-position-x: 50%;
+        background-position-y: 100%;
+        border-radius: 25px;
+    }
+    .Hope_Life_logo{
+        width: 25%;
+        border-radius: 50px;
+    }
+    .Hope_head{
+        width: 100%;
+        background:url("../images/design/here.png");
+        background-repeat: no-repeat;
+        background-size: 30%;
+        background-position-x: 100%;
+        background-position-y: center;
+        padding: 5%;
+
+    }
+    .Hope_name{
+        font-size: 70%;
+        background-image: linear-gradient(to top, rgb(0, 255, 42), rgb(174, 177, 0));
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        text-decoration: underline;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        left: 2%;
+        bottom: 10px;
+    }
+    .Hope_container, .ELL_container, .TAS_container, .CELPS_container, .ELA_container{
+        font-size: 20px;
+        padding: 5%;
+        color: #131313;
+    }
+
+    #Hope_name{
+        text-decoration:lawngreen;
+    }
+    .Hope_Life{
+        margin-bottom: 20px;
+    }
+    
+    .stars{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-size: 15px;
+        position: relative;
+        bottom: 0;
+    }
+    .select_In{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .select_Institute{
+        color: #fff;
+        /* background-image:linear-gradient(to right, rgb(162, 0, 255),#a014ca); */
+        border: none;
+        padding: 2px;
+        /* border-radius: 10px; */
+    }
+    #select_Institute{
+        color: #fff;
+    }
+    br{
+        display: block;
+    }
+    .almostdone{
+        height: 100%;
+        display: grid;
+        grid-gap: 20vw;
+        justify-content: center;
+    }
+    .almost_, .almost__, .almost___{
+        width: 50vw;
+        height: 50vw;
+    }
+    .almost_{
+        margin-top: 10vw;
+    }
+    .location{
+        text-align: center;
+        font-weight: bolder;
+    }
+    .Pentecost_title{
+        font-size: 5vw;
+        margin-left: 3vw;
+        margin-top: 10vw;
+    }
+
+    
+}
+
+
+@media (min-width:700px) and (max-width:1024px) {
+    .Hope_Life{
+        background: url("../images/design/blue.png") -100% 330px,
+                    url("../images/design/item.png") -10% -10%;
+        background-repeat: no-repeat;
+        background-size: 250px;
+        /*background-position: -150px -450px;*/
+        background-color: #fff;
+    }
+    .Hope_head{
+        width: 100%;
+        background:url("../images/design/here.png");
+        background-repeat: no-repeat;
+        background-size: 18%;
+        background-position-x: 100%;
+        background-position-y: center;
+    }
+    .Hope_name{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        left: 2%;
+        bottom: 25px;
+    }
+    .TAS_container, .CELPS_container, .ELA_container, .ELL_container, .Hope_container{
+        font-size: 30px;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    
+}
+.write{
+
+    width: 0ch;
+    color: white;
+    white-space: nowrap;
+    animation: typing 2s steps(25) 1s infinite alternate;
+}
+#typing span{
+color:red;}
+
+#crow {
+    float: left;
+    animation: crow 0.5s linear 0s infinite;
+}
+@keyframes typing {
+    from {
+        width: 0ch;
+    }
+    to {
+        width: 22ch;
+    }
+}
+@keyframes crow {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,17 @@
+Disclaimer: This program is offered to the Public without warranty and is
+offered as-is. The author takes no responsibility implied or otherwise to the
+loss/damage of data or information.
+
+Although this software is released with a 'freeware' license, it is not public
+domain. You may redistribute this software as you see fit, as long as no fee is 
+charged for said software and this file is included in its original form. HazteK 
+Software holds the copyrights and trademark names for SMTP Mail Sender and the
+source code. Any attempt to modify or change the software without express 
+written consent by the author is strictly prohibited. For more information about
+this license, or if you would like to include the software on some form of mass
+production digital media collection, please contact HazteK Software using the 
+contact information provided below.
+
+Website: https://www.haztek-software.com/contact/
+Email:   support@haztek-software.com
+Twitter: @hazteksoftware

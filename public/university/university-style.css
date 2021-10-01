@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #131312;
+}
+
+.AfriquEtude{
+    font-size: 5vw;
+    text-decoration: none;
+    font-family: 'Brush Script MT';
+    font-weight: bolder;
+    background-image: linear-gradient(to top, blue, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+
+.list-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.links:hover{
+    border-bottom: 2px solid blue;
+}
+.image-head{
+    width: 80%;
+}
+.bg-image{
+    background-image: url("university/design/back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.square > div{
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
+    width: 150px;
+    height: 200px;
+    margin: 2% 2%;
+}
+
+.square{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+
+}
+.picture{
+    width: 50%;
+}
+.linkys{
+    color:rgb(197, 197, 197);
+    text-decoration: none;
+}
+
+@media (max-width: 740px){
+    .bg-image{
+        background-image: url("university/design/portrait.jpg");
+    }
+    .contain{
+        padding: 0;
+    }
+}
+@media (max-width: 575px){
+    .milieu, .gauche, .droite{
+        margin: 0 auto;
+    }
+
+}

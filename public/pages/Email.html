@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="d-flex justify-content-center align-content-center bg-primary" style="width: 100vw; max-width: 800px; margin: 0 auto;">
+        <div>
+            <h1 style="color: #ffff;">
+                AfriquEtude
+            </h1>
+        </div>
+    </div>
+    <div class="container d-flex justify-content-center" id="Imgg">
+        <img src="image-4.png" style="max-width: 30vw; margin: 0 auto;" alt="">
+    </div>
+    <div class="container d-flex flex-column" style="background-color: #366bfd42; padding: 10px; max-width: 800px; margin: 0 auto;">
+        <h4>Hello sir</h4>
+        <div class="container d-flex">
+            <div style="width: 50px;"></div>
+            <div>
+                <p style="text-align: justify;">
+                    my name is {{nom}} {{prenom}} I got your institute named {{InstitueName}} online, through AfriquEtude and i would like to register for {{formation}} Course, a duration of {{mois}} month(s), i would like to get in touch with you to further the process
+                </p>
+                <p>
+                    Here are my addresses 
+                    <!-- "<h4>Hello my name is "+nom+" "+prenom+" I would like to enroll into your Institute Namely: "+InstitueName+" Here are my Info whatsapp: "+whatsapp+" Email"+email+" Training: "+formation+" Duration: "+mois+" months.</h4>" -->
+                    <ul>
+                        <li>Name: {{nom}} {{prenom}}</li>
+                        <li>Course: {{formation}}</li>
+                        <li>Duration: {{mois}} month(s)</li>
+                        <li>Hours: {{heure}} Hours</li>
+                        <li>My Email: <a href="mailto:{{email}}">{{email}}</a></li>
+                        <li>My whatsapp: {{whatsapp}}</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="d-flex justify-content-evenly bg-primary align-content-center flex-wrap" style="max-width: 800px; margin: 0 auto; padding: 10px;">
+        <h6 style="color: #ffff;">AfriquEtude</h6>
+        <div class="d-flex flex-column">
+            <address style="color: #ffff;">whatsapp: +233559559542</address>
+            <a href="www.afriquetude.com" style="color: #ffff; text-decoration: none;">AfriquEtude.com</a>
+            <a href="mailto:Afriquetude.gh@gmail.com" style="color: #ffff; text-decoration: none;">Afriquetude.gh@gmail.com</a>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center bg-primary" style="max-width: 800px; margin: 0 auto; padding: 10px;">
+        <address style="color: #ffff;">Accra, Ghana</address>
+    </div>
+    
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
